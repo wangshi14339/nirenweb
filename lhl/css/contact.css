@@ -1,0 +1,202 @@
+main{
+
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 60px;
+}
+.crumbs{
+    width: 846px;
+    height: 36px;
+    margin:0 auto;
+    background-image:url("../image/kuan.jpg") ;
+    line-height: 36px;
+    font-size: 16px;
+    margin-bottom: 58px;
+    padding-left: 18px;
+}
+.about-tile{
+    width: 254px;
+    height: 64px;
+    background-image: url("../image/contact.jpg");
+    background-repeat: no-repeat;
+    margin:0 auto;
+    margin-bottom: 68px;
+}
+.message{
+    padding-top: 50px;
+    border-top:1px solid #ccc;
+    width: 604px;
+    height:  auto;
+    margin:0 auto;
+}
+.message:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+.input-box{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-con{
+    width: 246px;
+    height: 100%;
+    background-image: url("../image/inputout.png");
+    padding:0 8px;
+    position: relative;
+
+}
+lable{
+    position: absolute;
+    left:8px;
+    top:0;
+    line-height: 36px;
+    color:#d5bb95;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border:0;
+    margin:0;
+    padding:0;
+    background-color: rgba(0,0,0,0);
+    padding-left: 50px;
+    color:#d5bb95;
+}
+.textarea{
+    margin-top: 14px;
+    width: 100%;
+    height: 197px;
+
+    position: relative;
+}
+textarea{
+    padding:40px;
+    width: 100%;
+    height: 100%;
+    color:#d5bb95;
+    background-color: rgba(0,0,0,0);
+    background-image: url("../image/textarea.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border:0;
+    background-size: cover;
+    resize: none;
+    outline: none;
+    position: relative;
+}
+.button{
+    margin: 26px 0;
+    width: 93px;
+    height: 36px;
+    background-image: url("../image/genduo.png");
+    text-align: center;
+    line-height:36px;
+    color:#c49179;
+    float: right;
+    cursor: pointer;
+}
+.exchange{
+    width: 904px;
+    height: auto;
+    margin:0 auto;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.exchange>li{
+    padding:30px 20px;
+    border-bottom: 1px solid #ccc;
+}
+.exchange>li:last-child{
+    border-bottom: 0;
+}
+.exchange>li>ol{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exchange>li>ol>li:nth-child(1){
+    width: 74px;
+    height: 36px;
+    border-right:2px solid #ccc;
+}
+.exchange>li>ol>li:nth-child(2){
+    width: 580px;
+    font-size: 14px;
+    color:#a9a9a9;
+}
+.exchange>li>ol>li:nth-child(3){
+    width: 140px;
+    font-size: 14px;
+    color:#a9a9a9;
+}
+.administrator{
+    color:#333;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+.page{
+    width: 394px;
+    margin:38px auto;
+}
+.page1{
+    text-align: center;
+    line-height:32px;
+    cursor: pointer;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("../image/dian.png");
+}
+.page2{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin:0 2px;
+    text-align: center;
+    line-height:30px;
+    cursor: pointer;
+}
+.page3{
+    border:1.5px solid #c25858;
+    border-radius: 50%;
+}
+.info{
+    background-color: #8a2827;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color:#fff;
+}
+.date{
+    width: 100% !important;
+    margin-top: 10px;
+    text-align: right;
+    width: 140px;
+    font-size: 14px;
+    color: #a9a9a9;
+    display: none;
+}
+.pages{
+    width: 100%;
+    padding:20px;
+    display: none;
+    justify-content: space-between;
+}
+.pages>li{
+    width: 146px;
+    height: 38px;
+    border-radius: 19px;
+    border:1px solid #8a2827;
+    text-align: center;
+    line-height: 38px;
+    color:#8a2827;
+    font-size: 22px;
+}

@@ -1,0 +1,155 @@
+main{
+
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 60px;
+}
+.crumbs{
+    width: 846px;
+    height: 36px;
+    margin:0 auto;
+    background-image:url("../image/kuan.jpg") ;
+    line-height: 36px;
+    font-size: 16px;
+    margin-bottom: 58px;
+    padding-left: 18px;
+}
+.about-tile{
+    width: 254px;
+    height: 64px;
+    background-image: url("../image/aboutTitle.png");
+    margin:0 auto;
+    margin-bottom: 68px;
+}
+.option{
+    width: 848px;
+    height: 16px;
+    margin:0 auto;
+    padding:0 270px;
+    background-image: url("../image/oprion.png");
+    display: flex;
+    justify-content: space-around;
+}
+.option>li{
+    cursor: pointer;
+}
+.option> .active{
+    color:#bf0303;
+}
+.about-content{
+    margin: 0 auto;
+    padding-top: 76px;
+    width: 1200px;
+    height: auto;
+}
+.about-content>li{
+    margin:0 auto;
+    width: 848px;
+    display: none;
+}
+.about-content>li:nth-child(3){
+    width: 1200px;}
+.about-content> .active{
+    display: block;
+}
+.guanyu-text{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 740px;
+    height: 300px;
+    border:6px solid #fff;
+    text-align: center;
+    line-height: 194px;
+    color:#fff;
+    font-size: 40px;
+}
+.footer-option{
+    margin:0 auto;
+    margin-top: 48px;
+    width: 848px;
+    padding: 50px 270px;
+    display: flex;
+    justify-content: space-around;
+    border-top:2px solid #ccc;
+
+}
+.footer-option>li{
+    cursor: pointer;}
+.footer-option>.active{
+    color:#bf0303;
+}
+.info{
+    display: block;
+    width: 100%;
+    background-color: #8a2827;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color:#fff;
+
+}
+.culture{
+    margin-top: 46px;
+    width: 100%;
+    display: flex;
+}
+.culture>li:nth-child(1){
+    width: 254px;
+}
+.culture>li:nth-child(2){
+    width: 560px;
+}
+.ceos{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ceos>li{
+    width: 598px;
+    height: 318px;
+    background-color: #832625;
+    display: flex;
+}
+.headportrait{
+    width:200px;
+    height: 100%;
+}
+.ceos-info{
+    width: 400px;
+    height: 100%;
+    padding:34px 30px;
+    color:#fff;
+}
+.heng{
+    width: 104px;
+    height: 30px;
+    border-bottom: 2px solid #e60012;
+    margin-bottom: 30px;
+}
+.chiefs{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.chiefs>li{
+    width: 400px;
+    height: auto;
+}
+.chiefs-headportrait{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    border:1px solid #ccc;
+    margin:0 auto;
+}
+.info1{
+    display: none;
+}

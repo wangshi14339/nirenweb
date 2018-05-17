@@ -1,0 +1,144 @@
+main{
+
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 60px;
+}
+.crumbs{
+    width: 846px;
+    height: 36px;
+    margin:0 auto;
+    background-image:url("../image/kuan.jpg") ;
+    line-height: 36px;
+    font-size: 16px;
+    margin-bottom: 58px;
+    padding-left: 18px;
+}
+.about-tile{
+    width: 254px;
+    height: 64px;
+    background-image: url("../image/product.png");
+    background-repeat: no-repeat;
+    margin:0 auto;
+    margin-bottom: 68px;
+}
+section{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.chapin-ban{
+    margin-top: 21px;
+    width: 100%;
+    background-image: url("../image/1123.png");
+    padding:21px 0;
+}
+.subheading{
+    width: 72px;
+    height: 30px;
+    margin:0 auto;
+    background-image: url("../image/jianzhi.png");
+}
+.chanpinzhaos{
+    margin:0 auto;
+    margin-top: 34px;
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.chanpinzhaos>li{
+    width: 212px;
+    height: 270px;
+    border:1px solid #ccc;
+    padding:22px;
+
+}
+.chanpinzhaos-img>li{
+    background-image: url("../image/1222.jpg");
+}
+.chanpinzhaos-man>li{
+    padding: 0;
+}
+.chapin-ban:nth-child(1)>.chanpinzhaos>li{
+    border:0;
+}
+.chapin-banff{
+    background: #fff;
+}
+
+.chapin-ban>:nth-child(1).chanpinzhaos>li>.chanoin-img{
+    background-image: url("../image/1222.jpg");
+}
+.chanoin-img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 8px;
+}
+.chanpin-dian{
+    width: 360px;
+    height: 34px;
+    margin:0 auto;
+    margin-top: 38px;
+    margin-bottom: 24px;
+    position: relative;
+    padding:0 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chanpin-dian>li{
+
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    background-size: 100%;
+    cursor: pointer;
+}
+.chanpin-dian>.active{
+    background-image: url("../image/dian.png");
+}
+.chanpin-left{
+    width: 22px!important;
+    height: 1px!important;
+    background: #bfbfbf;
+    position: absolute;
+    left:0;
+    top:16px;
+}
+.chanpin-right{
+    width: 22px!important;
+    height: 1px!important;
+    background: #bfbfbf;
+    position: absolute;
+    right:0;
+    top:16px;
+}
+.button{
+    margin: 0 auto;
+    width: 93px;
+    height: 36px;
+    background-image: url(../image/genduo.png);
+    text-align: center;
+    line-height: 36px;
+    color: #c49179;
+    cursor: pointer;
+}
+.info{
+    background-color: #8a2827;
+    line-height: 56px;
+    text-align: center;
+    color:#fff;
+
+}
+.info1{
+	display:none;
+}
+.nisujs,.jianzhijs,.mudiaojs,.lvyoujs{
+     display: none;
+ }
+section>.active{
+    display: flex;
+}

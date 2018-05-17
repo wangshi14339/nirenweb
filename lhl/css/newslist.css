@@ -1,0 +1,148 @@
+main{
+
+    width: 926px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 60px;
+}
+.crumbs{
+    width: 846px;
+    height: 36px;
+    margin:0 auto;
+    background-image:url("../image/kuan.jpg") ;
+    line-height: 36px;
+    font-size: 16px;
+    margin-bottom: 58px;
+    padding-left: 18px;
+}
+.about-tile{
+    width: 254px;
+    height: 64px;
+    background-image: url("../image/news1.png");
+    margin:0 auto;
+    margin-bottom: 68px;
+}
+.news-main{
+    width: 100%;
+    height:  auto;
+    border-top:1px solid #ccc;
+}
+.news-list{
+    width: 100%;
+    padding: 26px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.news-list>li:nth-child(1){
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    color:#ccc;
+    margin-top: 38px;
+}
+.news-list>li:nth-child(2){
+    width: 290px;
+    height: 136px;
+    border:1px solid #ccc;
+}
+.news-list>li:nth-child(3){
+    width: 434px;
+}
+.news-list>li:nth-child(4){
+    width: 42px;
+    height: 100%;
+    line-height: 136px;
+    text-align: center;
+    font-size: 50px;
+    color:#ccc;
+
+}
+
+.page{
+    width: 394px;
+    margin:38px auto;
+}
+.page1{
+    text-align: center;
+    line-height:32px;
+    cursor: pointer;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    color:#be0505;
+    background-image: url("../image/dian.png");
+}
+.page2{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin:0 2px;
+    text-align: center;
+    line-height:30px;
+    cursor: pointer;
+}
+.page3{
+    border:1.5px solid #c25858;
+    border-radius: 50%;
+}
+.info{
+    background-color: #8a2827;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color:#fff;
+
+}
+.newlistres{
+    width: 100%;
+    display: none;
+}
+.newlisttitle{
+    padding:0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.newlisttitle>li:nth-child(1){
+    width: 32px;
+    height: 32px;
+    background: #8a2827;
+    color:#fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+}
+.newlisttitle>li:nth-child(2){
+    color:#8a2827;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+}
+.newlisttitle>li:nth-child(3){
+    color:#8a2827;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+}
+.pages{
+    width: 100%;
+    padding:20px;
+    display: none;
+    justify-content: space-between;
+}
+.pages>li{
+    width: 146px;
+    height: 38px;
+    border-radius: 19px;
+    border:1px solid #8a2827;
+    text-align: center;
+    line-height: 38px;
+    color:#8a2827;
+    font-size: 22px;
+}
+.info1{
+    display: none;
+}

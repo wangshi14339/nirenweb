@@ -1,0 +1,191 @@
+@media screen and (max-width:752px){
+    .guanyu-text{
+        width: 80%;
+        line-height: 300px;
+    }
+   .footer-option{
+       display: none !important;
+   }
+    .about-content,.about-content>li{
+        width: 100% !important;
+    }
+    .option{
+        width: 100%;
+        padding: 0 160px;
+    }
+    main{
+        width: 100%;
+        padding:0 20px;
+    }
+    .ceos{
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .ceos>li{
+        margin-bottom:30px;
+    }
+    .chiefs{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .chiefs>li{
+    width: 90%;
+    margin:20px auto;
+    }
+    .chiefs>li>div:nth-child(1){
+        width: 40%;
+        float: left;
+    }
+    .chiefs>li>div:nth-child(2){
+        width: 60%;
+        float: left;
+    }
+
+}
+@media screen and (max-width:680px){
+.guanyu-text{
+    height: 240px;
+	    line-height: 240px;
+	}
+	.option{
+		    padding: 0 140px;
+		}
+	.ceos>li{
+	    width: 530px;
+		height:280px;
+	}
+	.heng{
+	    margin-bottom: 10px;
+	
+	}
+	.chiefs>li>div:nth-child(1) {
+		width: 36%;
+		height:200px;
+		float: left;
+	}
+	.chiefs>li>div:nth-child(2){
+		width:64%;
+	}
+	.chiefs>li>div:nth-child(3){
+		width:64%;
+	}
+	.ceos-info{
+	    padding: 32px 20px;
+		font-size:14px;
+	}
+}
+@media screen and (max-width:560px){
+	.option{
+		    padding: 0 100px;
+		}
+	.guanyu-text{
+    height: 200px;
+	    line-height: 200px;
+		font-size:30px;
+	}
+	.chiefs>li>div:nth-child(1) {
+		width: 30%;
+		height:160px;
+		float: left;
+	}
+	.chiefs>li>div:nth-child(2){
+		width:70%;
+	}
+	.design>p{
+		font-size:14px;
+	}
+	.design>h3{
+		font-size:16px;
+	}
+	.ceos>li{
+	    width: 446px;
+		height:280px;
+	}
+	.ceos-info{
+	    padding: 28px 18px;
+		font-size:14px;
+	}
+}
+@media screen and (max-width:460px){
+
+	.option{
+		    padding: 0 60px;
+		}
+		.guanyu-text{
+    height: 140px;
+	    line-height: 140px;
+	}
+	.chiefs>li>div:nth-child(1) {
+		width: 26%;
+		height:100px;
+		float: left;
+	}
+	.chiefs>li>div:nth-child(2){
+		width:74%;
+	}
+	.design>p{
+		font-size:14px;
+	}
+	.design>h3{
+		font-size:16px;
+	}
+	.ceos>li{
+	    width: 90%;
+		height:280px;
+	}
+	.ceos-info{
+	    padding: 24px 14px;
+		font-size:14px;
+	}
+}
+@media screen and (max-width:380px){
+	.option {
+		 padding: 0 40px;
+	}
+	.about-content>li>h3 {
+		font-size:18px;
+	}
+	.about-content>li>p{
+		font-size:14px;
+	
+	}
+	.guanyu-text {
+		height: 128px;
+		line-height: 128px;
+		font-size:24px;
+	}
+	.culture{
+		font-size:14px;
+	}
+	.ceos>li {
+    width: 100%;
+    height: 208px;
+	}
+	.ceos-info {
+		padding: 8px;
+		font-size: 12px;
+	}
+	.ceos-info>h3{
+		margin-bottom: 16px !important;
+	}
+	.heng {
+		height: 16px;
+	}
+	.design>h3{
+		font-size:14px;
+		margin: 8px 0 !important;
+	}
+	.design>p{
+		padding: 0 10px !important;
+	}
+	.chiefs>li>div:nth-child(1) {
+		width: 50%;
+		height: 148px;
+		float: none;
+		margin: 0 auto;
+	}
+	.chiefs>li>div:nth-child(2) {
+    width: 100%;
+	}
+}

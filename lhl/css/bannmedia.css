@@ -1,0 +1,102 @@
+@media screen and (max-width:752px){
+    header{
+        display: none;
+    }
+    .header{
+        display: flex;
+    }
+    .banner-box,.banner-inner{
+        width: 100%;
+        /*height: 800px;*/
+    }
+    .banner-dian{
+        background-image: none;
+        width: 180px;
+        display: flex;
+        height: 32px;
+        top:356px;
+        bottom:0;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+    .leftright{
+        display: none;
+    }
+    .doll{
+        width: 100px;
+        height: 200px;
+        bottom:100px;
+    }
+    .banner-dian>li{
+        margin:0 4px;
+    }
+    .newtitle{
+        background-image: url('../image/newstitle.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    main{
+        width: 100%;
+    }
+    .crumbs{
+        width: 80%;
+        margin:0 auto;
+        background-size: 100% 100%;
+        margin-bottom: 28px;
+    }
+    .info{
+        display: none;
+    }
+    .info1{
+        display: block;
+        height: auto;
+    }
+    .info1>p{
+
+        text-align: center;
+        line-height: 28px;
+        height: auto;
+    }
+
+}
+
+
+@media screen and (max-width:680px){
+
+.banner-imgs>li>a{
+	/*   需要换图*/
+	background:url("../image/banner2.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	}
+
+}
+@media screen and (max-width:560px){
+
+.banner-imgs>li>a{
+	/*   需要换图*/
+	background:url("../image/banner2.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	}
+	.info1 {
+		font-size:14px;
+	}
+
+}
+
+@media screen and (max-width:420px){
+
+.banner-imgs>li>a{
+	/*   需要换图*/
+	background:url("../image/banner2.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	}
+	.info1 {
+		font-size:12px;
+	}
+
+}

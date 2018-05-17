@@ -1,0 +1,47 @@
+@media screen and (max-width: 752px){
+    .about-tile{
+        width: 90%;
+        background-size: 101% 100%;
+    }
+    .show-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .newsshow-img{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .newsshow-img>li{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .page{
+        width: 100%;
+        padding:0 20px;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+	
+	.page>li {
+    width: 118px; 
+	}
+
+}
+@media screen and (max-width: 460px){
+	body{
+		font-size:14px;
+	}
+	.page {
+		width: 100%;
+    padding: 0 10px;
+	}
+	.page>li {
+    width: 106px;
+    height: 32px;
+  
+	}
+
+}

@@ -1,0 +1,78 @@
+main{
+
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 60px;
+}
+.crumbs{
+    width: 846px;
+    height: 36px;
+    margin:0 auto;
+    background-image:url("../image/kuan.jpg") ;
+    line-height: 36px;
+    font-size: 16px;
+    margin-bottom: 58px;
+    padding-left: 18px;
+}
+.about-tile{
+    width: 254px;
+    height: 64px;
+    background-image: url("../image/123123.png");
+    margin:0 auto;
+    margin-bottom: 68px;
+}
+.show-content{
+    width: 846px;
+    height: auto;
+    margin:0 auto;
+}
+.page{
+    width: 846px;
+    height: auto;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.page>li{
+    width: 130px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 32px;
+    text-align: center;
+}
+.pages{
+    width: 100%;
+    padding:20px;
+    display: none;
+    justify-content: space-between;
+}
+.pages>li{
+    width: 146px;
+    height: 38px;
+    border-radius: 19px;
+    border:1px solid #8a2827;
+    text-align: center;
+    line-height: 38px;
+    color:#8a2827;
+    font-size: 22px;
+}
+.left{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-image: url("../image/dian.png");
+    color:#b73a3a;
+}
+.info{
+    background-color: #8a2827;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color:#fff;
+
+}
+.info1{
+    display: none;
+}

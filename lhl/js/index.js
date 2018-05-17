@@ -1,0 +1,1 @@
+option($(".guanyu-banner-dian>li"),$(".guanyu-banner-img>li"))
