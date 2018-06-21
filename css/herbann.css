@@ -107,17 +107,18 @@ header{
 }
 .header-list>li{
     width: 140px;
-    height: 60px;
+    height: 26px;
     margin: 0 auto;
-    background-image: url("../image/header.png");
+    background-image: url(../image/header.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    line-height: 50px;
+    background-size: 75%;
+    line-height: 24px;
     text-align: center;
-    color:#fff;
+    color: #fff;
     font-size: 18px;
-    padding-right: 20px;
+    padding-right: 11px;
+    margin-bottom: 6px;
 
 }
 .header-list>li>a{

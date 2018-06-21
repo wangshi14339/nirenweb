@@ -120,6 +120,9 @@ main{
     font-size: 28px;
     text-align: center;
     line-height: 32px;
+	overflow:hidden;
+        text-overflow:ellipsis; 
+        white-space: nowrap;
 }
 .newlisttitle>li:nth-child(3){
     color:#8a2827;

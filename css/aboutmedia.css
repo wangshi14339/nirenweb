@@ -121,8 +121,14 @@
 		height:100px;
 		float: left;
 	}
+	.chiefs>li>div:nth-child(1) {
+		width: 50%;
+		height: 148px;
+		float: none;
+		margin: 0 auto;
+	}
 	.chiefs>li>div:nth-child(2){
-		width:74%;
+		width:100%;
 	}
 	.design>p{
 		font-size:14px;
@@ -179,12 +185,7 @@
 	.design>p{
 		padding: 0 10px !important;
 	}
-	.chiefs>li>div:nth-child(1) {
-		width: 50%;
-		height: 148px;
-		float: none;
-		margin: 0 auto;
-	}
+	
 	.chiefs>li>div:nth-child(2) {
     width: 100%;
 	}
